@@ -16,8 +16,8 @@ export const StyledForm = styled.form`
   height: 280px;
   padding: 20px 40px;
   border-radius: 8px;
-  background: #F9B8C7; 
-  box-shadow: 1px 1px 3px 4px rgba(119,  5,  47, 0.7);
+  background-color: rgb(198, 198, 233);
+  box-shadow: 1px 1px 3px 4px  rgba(198, 198, 233, 0.7);
 `;
 
 export const Input = styled.input`
@@ -27,7 +27,7 @@ export const Input = styled.input`
   width: 300px;
   padding: 12px;
   border-radius: 20px;
-  background: #faebd7;
+  /* background: #faebd7; */
   /* color: #590042;  */
 `;
 
@@ -35,7 +35,6 @@ export const LabelForm = styled.label`
   font-size: 20px;
   display: block;
   margin-bottom: 0; 
-  /* color: #590042;  */
 `;
 
 
@@ -43,6 +42,6 @@ export const LabelForm = styled.label`
 export const Title = styled.h2`
 margin-top: 10px;
 margin-bottom:20px;
-border-bottom: 1px solid #590042;
+border-bottom: 1px solid #130059;
 padding-bottom:8px;
 `;

@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-top: 36px;
+  margin-top: 28px;
   margin-bottom: 4px;  
   float: right;
   padding: 0 30px;
   max-width: 480px;
   border-radius: 16px;
-  box-shadow: 1px 1px 3px 4px rgba(119, 5, 47, 0.7);
-  background-color: #f199ae;  
+  box-shadow: 1px 1px 3px 4px rgba(198, 198, 233, 0.7);
+  /* background-color: rgb(152, 152, 227); */
+  background-color: rgb(147, 152, 246);
 `;
 
 
 export const Title = styled.h1`
   margin-bottom: 16px;
-
   font-size: 36px;
   text-align: center;
 `;

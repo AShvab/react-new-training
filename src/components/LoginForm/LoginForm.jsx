@@ -2,7 +2,6 @@ import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
 import {  Container, Input, LabelForm, StyledForm, Title } from './LoginForm.styled';
 import { Button } from '@mui/material';
-// import { toast } from 'react-toastify';
 
 const LoginForm = () => {
   const dispatch = useDispatch();
