@@ -1,0 +1,14 @@
+
+.headerList {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+  }
+  
+  .headerLink {
+    text-decoration: none;
+    margin-right: 60px;
+    color: #130059;
+  }
